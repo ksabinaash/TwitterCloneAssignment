@@ -18,7 +18,7 @@ namespace Assignment1.Models
         [Required(ErrorMessage = "Enter your full name")]
         public string fullName { get; set; }
         [Display(Name = "Email")]
-        [EmailAddress(ErrorMessage = "Invalid Email Address")]
+        [EmailAddress(ErrorMessage = "Invalid email address")]
         [Required(ErrorMessage = "Email is a required field")]
         public string email { get; set; }
         [Display(Name = "Joined On")]
